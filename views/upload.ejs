@@ -1,0 +1,10 @@
+<%- include('header')%>
+<script>
+</script>   
+<div onload ="myFuntion()" id = 'main' style="display: flex;">
+        <img style="width:40vw; margin:2vw;" src="/upload/<%= file.name%>" alt="<%= file.name%>"><br>
+        <img style="width:40vw; margin:2vw;" src="/bgremove/bgremove.<%= file.name%>" alt="<%= file.name%>"><br>
+    </div >
+    <a style="padding : 4px 8px; border: 1px solid hidden; background-color: dodgerblue;text-decoration: none;color:white;font-size: 1.5rem;border-radius :4px;margin-left: 2.5vw;" href="/bgremove/bgremove.<%= file.name%>" download>Download</a>
+<%- include('footer')%>
+
